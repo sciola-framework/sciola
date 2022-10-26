@@ -1,6 +1,6 @@
 ![Sciola favicon](https://github.com/sciola-git/sciola-git.github.io/blob/main/images/brands/sciola_framework.svg?raw=true)
 
-## PHP framework (Project under development)
+### PHP framework (Project under development)
 
 ### Requirements:
 
@@ -12,7 +12,7 @@
 
 ---
 
-### <div align="center">Reference</div>
+## <div align="center">Reference</div>
 
 - [config](#-config)
 - [database](#-database)
