@@ -4,6 +4,8 @@
 
 **In this directory are the libraries of your application.**
 
+---
+
 You can create your classes in this directory and call them anywhere in your application. Example:
 
 File: **Foo.php**
