@@ -4,6 +4,8 @@
 
 **In this directory are the libraries of your application.**
 
+File: **Foo.php**
+
 ```php
 <?php
 
