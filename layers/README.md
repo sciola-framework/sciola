@@ -6,9 +6,11 @@
 
 ```mermaid
 graph TD;
-    Controllers-->Models;
-    Models-->Controllers;
-    Controllers-->Views;
+    User-->Controller;
+    Controller-->Model;
+    Model-->Controller;
+    Controller-->View;
+    View-->User;
 ```
 
 ### Controllers
