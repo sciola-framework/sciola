@@ -51,3 +51,28 @@ File: **pt-BR/routes.json**
   "A0002" : "loja-virtual",
   "A0003" : "contato"
 }
+```
+
+---
+
+You will be able to rename the files and create others with custom names according to the context of your application. Example:
+
+---
+
+File: **en/routes-system.json**
+
+File: **en/routes-website.json**
+
+File: **en/system.json**
+
+File: **en/website.json**
+
+---
+
+File: **pt-BR/routes-system.json**
+
+File: **pt-BR/routes-website.json**
+
+File: **pt-BR/system.json**
+
+File: **pt-BR/website.json**
