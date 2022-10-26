@@ -28,7 +28,7 @@ class MyController extends Controller
 {
     public function method()
     {
-
+        return view('my-view');
     }
 }
 ```
@@ -51,4 +51,29 @@ class MyModel extends Model
 
     }
 }
+```
+
+## View
+
+File: **my-view.html**
+
+```twig
+{% include header with {
+    meta: {
+      title: '',
+      subject: '',
+      description: '',
+      keywords: ''
+    },
+    css : ['/packages/foo-1/style.min.css',
+           '/packages/foo-2/style.min.css',
+           '/packages/foo-3/style.min.css']
+  }
+%}
+<h1>Page content</h1>
+{% include footer with {
+    js : ['/packages/foo-1/script.min.js',
+          '/packages/foo-2/script.min.js']
+  }
+%}
 ```
