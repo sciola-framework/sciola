@@ -1,6 +1,6 @@
 # Sciola
 
-![alt text](https://github.com/sciola-git/Sciola/blob/main/public/images/favicon/ms-icon-310x310.png?raw=true)
+![Sciola favicon](https://github.com/sciola-git/Sciola/blob/main/public/images/favicon/ms-icon-310x310.png?raw=true)
 
 **This icon is a registered trademark. Change the icon with your brand.**
 
