@@ -1,4 +1,4 @@
-![Sciola favicon](https://github.com/sciola-git/sciola-git.github.io/blob/main/images/brands/sciola_framework.svg?raw=true)
+<div align="center"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/brands/sciola_framework.svg?raw=true" /></div>
 
 ### PHP framework (Project under development)
 
