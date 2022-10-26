@@ -10,4 +10,4 @@
 - Composer
 - NPM
 - PHP 7++
-- Opcional: DBMS - (Data Base Management System)
+- DBMS - (Data Base Management System)
