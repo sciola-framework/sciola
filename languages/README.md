@@ -59,20 +59,20 @@ You will be able to rename the files and create others with custom names accordi
 
 ---
 
-File: **en/routes-system.json**
-
-File: **en/routes-website.json**
-
 File: **en/system.json**
+
+File: **en/system-routes.json**
 
 File: **en/website.json**
 
+File: **en/website-routes.json**
+
 ---
-
-File: **pt-BR/routes-system.json**
-
-File: **pt-BR/routes-website.json**
 
 File: **pt-BR/system.json**
 
+File: **pt-BR/system-routes.json**
+
 File: **pt-BR/website.json**
+
+File: **pt-BR/website-routes.json**
