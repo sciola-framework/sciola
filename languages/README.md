@@ -27,3 +27,24 @@ File: **pt-BR/app.json**
   "A0003" : ""
 }
 ```
+
+route translation
+
+File: **en/routes.json**
+
+```json
+{
+  "A0001" : "products-and-services",
+  "A0002" : "virtual-store",
+  "A0003" : "contact"
+}
+```
+
+File: **pt-BR/routes.json**
+
+```json
+{
+  "A0001" : "produtos-e-servicos",
+  "A0002" : "loja-virtual",
+  "A0003" : "contato"
+}
