@@ -66,10 +66,10 @@ In this directory are the translation files of your application and the routes.
 
 ---
 
-The translated text must have the same index in all translation files. Example:
+> **Note** *The translated text must have the same index in all translation files. Example:*
 
 
-## Text translation
+### Text translation
 
 File: **en/app.json**
 
@@ -91,7 +91,7 @@ File: **pt-BR/app.json**
 }
 ```
 
-## Route translation
+### Route translation
 
 File: **en/routes.json**
 
