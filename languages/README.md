@@ -8,6 +8,9 @@
 
 The translated text must have the same index in all translation files. Example:
 
+
+## Text translation
+
 File: **en/app.json**
 
 ```json
@@ -28,7 +31,7 @@ File: **pt-BR/app.json**
 }
 ```
 
-route translation
+## Route translation
 
 File: **en/routes.json**
 
