@@ -3,3 +3,17 @@
 # libraries
 
 **In this directory are the libraries of your application.**
+
+```php
+<?php
+
+namespace Lib;
+
+class Foo
+{
+    public function bar()
+    {
+        return 1;
+    }
+}
+```
