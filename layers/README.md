@@ -82,7 +82,7 @@ File: **my-view.html**
   }
 %}
 
-<h1>Page content</h1>
+<h1>Page content {{ foo }}</h1>
 
 {% include footer with {
     js : ['/packages/foo-1/script.min.js',
