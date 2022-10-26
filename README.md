@@ -115,7 +115,7 @@ File: **pt-BR/routes.json**
 
 ---
 
-You will be able to rename the files and create others with custom names according to the context of your application. Example:
+> **Note** *You will be able to rename the files and create others with custom names according to the context of your application. Example:*
 
 ---
 
