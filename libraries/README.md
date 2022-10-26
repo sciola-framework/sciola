@@ -22,7 +22,7 @@ class Foo
 }
 ```
 
-In controller, model or other library:
+Now just instantiate the class in the controller, model or other library:
 
 ```php
 <?php
@@ -34,7 +34,7 @@ class MyClass
     public function demo()
     {
         $Foo = new Foo;
-        echo $Foo->bar();
+        echo $Foo->bar(); // 1
     }
 }
 ```
