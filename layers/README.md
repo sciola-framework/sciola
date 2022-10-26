@@ -28,7 +28,9 @@ class MyController extends Controller
 {
     public function method()
     {
-        return view('my-view');
+        $model = model('MyModel');
+        $data['foo'] = $model;
+        return view('my-view', $data);
     }
 }
 ```
@@ -46,9 +48,13 @@ use Framework\Model;
 
 class MyModel extends Model
 {
-    public function method()
-    {
+    private $pdo = null;
+    //private $orm = null;
 
+    public function __construct()
+    {
+        $this->pdo = Connection::pdo();
+        //$this->orm = Connection::orm();
     }
 }
 ```
@@ -70,7 +76,9 @@ File: **my-view.html**
            '/packages/foo-3/style.min.css']
   }
 %}
+
 <h1>Page content</h1>
+
 {% include footer with {
     js : ['/packages/foo-1/script.min.js',
           '/packages/foo-2/script.min.js']
