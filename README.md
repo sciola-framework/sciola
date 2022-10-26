@@ -14,7 +14,7 @@
 
 ### <div align="center">Referencia</div>
 
-- [config](https://github.com/sciola-git/Sciola/edit/main/README.md#-config)
+- [config](#-config)
 
 ---
 
