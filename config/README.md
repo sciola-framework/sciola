@@ -4,7 +4,7 @@
 
 **In this directory are the application's configuration files.**
 
-
+***connection.ini***
 ```ini
 driver   = sqlite | mariadb | mysql | postgres
 host     = localhost
