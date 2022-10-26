@@ -1,3 +1,5 @@
+<?php
+
 Route::add('/', function () {
     controller('WebSite')->page('home');
 });
