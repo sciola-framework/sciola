@@ -3,15 +3,3 @@
 # config
 
 **In this directory are the application's configuration files.**
-
-***connection.ini***
-```ini
-driver   = sqlite | mariadb | mysql | postgres
-host     = localhost
-port     =
-username =
-password =
-database = sciola
-charset  = utf8
-collate  = utf8_unicode_ci
-```
