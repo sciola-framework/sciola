@@ -10,6 +10,8 @@ Go to the packages directory and run the commands to do the installation:
 
 **LINUX**
 
-debian@debian:~$ **composer install**
+debian@debian:~$ **cd /path/to/packages**
 
-debian@debian:~$ **npm install**
+debian@debian:~/path/to/packages$ **composer install**
+
+debian@debian:~/path/to/packages$ **npm install**
