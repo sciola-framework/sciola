@@ -1,0 +1,21 @@
+{
+    "name": "sciola/vendor",
+    "require": {
+        "delight-im/auth": "^8.3",
+        "twig/twig": "^3.3",
+        "catfan/medoo": "^2.1",
+        "erusev/parsedown": "^1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "classmap": ["./sciola/libraries/php/"],
+        "psr-4": {
+            "Framework\\": "./sciola/core/",
+            "Layers\\Controllers\\": "../layers/Controllers/",
+            "Layers\\Models\\": "../layers/Models/",
+            "Lib\\": "../libraries/"
+        }
+    }
+}
