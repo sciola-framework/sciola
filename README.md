@@ -64,8 +64,6 @@ DEV_MODE = false
 
 In this directory are the translation files of your application and the routes.
 
----
-
 > **Note** *The translated text must have the same index in all translation files. Example:*
 
 
@@ -113,11 +111,7 @@ File: **pt-BR/routes.json**
 }
 ```
 
----
-
 > **Note** *You will be able to rename the files and create others with custom names according to the context of your application. Example:*
-
----
 
 File: **en/system.json**
 
