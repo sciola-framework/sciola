@@ -2,7 +2,7 @@
 
 # layers
 
-### MVC
+### MVC - [ Model | View | Controller ]
 
 ```mermaid
 graph TD;
@@ -13,8 +13,42 @@ graph TD;
     View-->User;
 ```
 
-### Controllers
+## Controller
 
-### Models
+File: **MyController.php**
 
-### Views
+```php
+<?php
+
+namespace Layers\Controllers;
+
+use Framework\Controller;
+
+class MyController extends Controller
+{
+    public function method()
+    {
+
+    }
+}
+```
+
+## Model
+
+File: **MyModel.php**
+
+```php
+<?php
+
+namespace Layers\Models;
+
+use Framework\Model;
+
+class MyModel extends Model
+{
+    public function method()
+    {
+
+    }
+}
+```
