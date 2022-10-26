@@ -29,7 +29,24 @@ Now just instantiate the class in the controller, model or other library:
 
 use Lib\Foo;
 
-class MyClass
+class MyController extends Controller
+{
+    public function demo()
+    {
+        $Foo = new Foo;
+        echo $Foo->bar(); // 1
+    }
+}
+```
+
+or
+
+```php
+<?php
+
+use Lib\Foo;
+
+class MyModel extends Model
 {
     public function demo()
     {
