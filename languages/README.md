@@ -8,10 +8,22 @@
 
 The translated text must have the same index in all translation files. Example:
 
+File: **en/app.json**
+
 ```json
 {
-  "A0001" : "",
-  "A0002" : "",
+  "A0001" : "Hello World!",
+  "A0002" : "Welcome",
+  "A0003" : ""
+}
+```
+
+File: **pt-BR/app.json**
+
+```json
+{
+  "A0001" : "Olá Mundo!",
+  "A0002" : "Bem-vindo",
   "A0003" : ""
 }
 ```
