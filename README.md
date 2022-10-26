@@ -18,6 +18,8 @@
 >
 > <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> [database](#-database)
 >
+> <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> [languages](#-languages)
+>
 
 ---
 
@@ -39,6 +41,24 @@ DEV_MODE = false
 ---
 
 ### <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> database
+
+---
+
+In this directory are the application's configuration files.
+
+> **Note** *In production change the **DEV_MODE** option in the file: **constant.ini***
+```ini
+DEV_MODE = true
+```
+*to*
+```ini
+DEV_MODE = false
+```
+
+
+---
+
+### <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> languages
 
 ---
 
