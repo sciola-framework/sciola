@@ -29,7 +29,7 @@ class MyController extends Controller
     public function method()
     {
         $model = model('MyModel');
-        $data['foo'] = $model;
+        $data['foo'] = $model->foo();
         return view('my-view', $data);
     }
 }
@@ -55,6 +55,11 @@ class MyModel extends Model
     {
         $this->pdo = Connection::pdo();
         //$this->orm = Connection::orm();
+    }
+
+    public function foo()
+    {
+
     }
 }
 ```
