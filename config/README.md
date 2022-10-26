@@ -4,11 +4,13 @@
 
 **In this directory are the application's configuration files.**
 
-**In production change the DEV_MODE option in the file: constant.ini**
+---
+
+*In production change the DEV_MODE option in the file: constant.ini*
 ```ini
 DEV_MODE = true
 ```
-**to**
+*to*
 ```ini
 DEV_MODE = false
 ```
