@@ -12,6 +12,12 @@
 
 ---
 
+### <div align="center">Referencia</div>
+
+- [config](https://github.com/sciola-git/Sciola/edit/main/README.md#-config)
+
+---
+
 ### <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> config
 
 ---
