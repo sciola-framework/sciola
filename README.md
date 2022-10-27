@@ -1,4 +1,8 @@
+<br>
+
 <p align="center"><a href="https://sciola-git.github.io"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/brands/sciola_framework.svg?raw=true" width="400"></a></p>
+
+<br>
 
 ## <p align="center">The Lightweight PHP Framework to Accelerate Development.</p>
 
