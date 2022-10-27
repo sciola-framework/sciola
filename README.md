@@ -217,8 +217,6 @@ File: **MyModel.php**
 namespace Layers\Models;
 
 use Framework\Model;
-use Framework\Connection;
-use \PDO;
 
 class MyModel extends Model
 {
@@ -227,8 +225,8 @@ class MyModel extends Model
 
     public function __construct()
     {
-        $this->pdo = Connection::pdo();
-        //$this->orm = Connection::orm();
+        $this->pdo = $this->pdo();
+        //$this->orm = $this->orm();
     }
 
     public function foo()
