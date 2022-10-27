@@ -2,6 +2,8 @@
 
 ### PHP framework (Project under development)
 
+<br>
+
 ### Requirements:
 
 - Apache2 | https://httpd.apache.org
@@ -10,13 +12,23 @@
 - PHP 7++ | https://www.php.net
 - DBMS - (Data Base Management System) | https://en.wikipedia.org/wiki/Database
 
+<br>
+
 ## <p align="center">Reference</p>
+
+<br>
+
+### :file_folder: Directory Structure
+
+<br>
 
 > <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> [config](#-config)
 >
 > <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> [database](#-database)
 >
 > <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> [languages](#-languages)
+
+<br>
 
 ##
 
