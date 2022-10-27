@@ -361,7 +361,7 @@ In this directory are the public files served by the web servers.
 
 ##
 
-> **Note** This directory can be renamed according to your web server settings.
+> **Note** *This directory can be renamed according to your web server settings.*
 
 ##
 
@@ -374,6 +374,8 @@ In this directory are the public files served by the web servers.
 In this directory are the route files - Friendly urls.
 
 ##
+
+> **Note** *You can create multiple route files as per your application's organizational structure.*
 
 File: **foo.php**
 
