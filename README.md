@@ -403,16 +403,6 @@ In this directory are the packages managed by [composer](https://getcomposer.org
 
 ##
 
-Go to the packages directory and run the commands to do the installation:
-
-**LINUX**
-
-debian@debian:~$ **cd /path/to/packages**
-
-debian@debian:~/path/to/packages$ **composer install**
-
-debian@debian:~/path/to/packages$ **npm install**
-
 > **Note** *You can configure public packages, with access via url.*
 
 File: **package.json**
