@@ -46,7 +46,7 @@
 
 <br>
 
-### :file_folder: Directory Structure
+### :arrow_right: Directory Structure
 
 <br>
 
@@ -72,7 +72,7 @@
 
 <br>
 
-### :file_folder: Front-end - (CSS)
+### :arrow_right: Front-end - (CSS)
 
 <br>
 
