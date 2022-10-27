@@ -131,4 +131,8 @@ File: **pt-BR/website.json**
 
 File: **pt-BR/website-routes.json**
 
----
+<br>
+
+## License
+
+The Sciola framework is open-sourced software licensed under the [MIT license](LICENSE.md).
