@@ -28,11 +28,11 @@
 
    > **LINUX**
    >
-   > debian@debian:~$ **cd /path/to/packages**
+   > debian@debian:~$ **cd /var/www/sciola/packages**
    >
-   > debian@debian:~/path/to/packages$ **composer install**
+   > debian@debian:~/var/www/sciola/packages$ **composer install**
    >
-   > debian@debian:~/path/to/packages$ **npm install**
+   > debian@debian:~/var/www/sciola/packages$ **npm install**
 
 3. Access the application through the url that is configured on your web server.
 
