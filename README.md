@@ -94,11 +94,14 @@ In this directory are the application's configuration files.
 
 **constant.ini**
 
-> **Note** *In production change the **DEV_MODE** option in the file: **constant.ini***
+> **Note** *In production change the **DEV_MODE** option to false.*
+
 ```ini
 DEV_MODE = true
 ```
+
 *to*
+
 ```ini
 DEV_MODE = false
 ```
