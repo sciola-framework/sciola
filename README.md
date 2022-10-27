@@ -238,7 +238,7 @@ File: **pt-BR/website-routes.json**
 
 </p>
 
-MVC - [ Model | View | Controller ]
+In this directory are the layers of the **MVC** pattern. [ **Model** | **View** | **Controller** ]
 
 ##
 
