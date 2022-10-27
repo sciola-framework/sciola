@@ -47,19 +47,11 @@ DEV_MODE = false
 
 </p>
 
-##
-
 In this directory are the application's configuration files.
 
-> **Note** *In production change the **DEV_MODE** option in the file: **constant.ini***
-```ini
-DEV_MODE = true
-```
-*to*
-```ini
-DEV_MODE = false
-```
+##
 
+text...
 
 ##
 
@@ -69,9 +61,9 @@ DEV_MODE = false
 
 </p>
 
-##
-
 In this directory are the translation files of your application and the routes.
+
+##
 
 > **Note** *The translated text must have the same index in all translation files. Example:*
 
