@@ -198,7 +198,7 @@ use Framework\Controller;
 
 class MyController extends Controller
 {
-    public function method()
+    public function foo()
     {
         $model = model('MyModel');
         $data['foo'] = $model->foo();
@@ -231,7 +231,7 @@ class MyModel extends Model
 
     public function foo()
     {
-
+        return 'Hello World';
     }
 }
 ```
