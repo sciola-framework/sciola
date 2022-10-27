@@ -92,6 +92,8 @@ In this directory are the application's configuration files.
 
 ##
 
+**constant.ini**
+
 > **Note** *In production change the **DEV_MODE** option in the file: **constant.ini***
 ```ini
 DEV_MODE = true
@@ -100,6 +102,10 @@ DEV_MODE = true
 ```ini
 DEV_MODE = false
 ```
+
+**php.ini**
+
+> **Note** *PHP settings with **PHP_INI_ALL** permission.*
 
 ##
 
