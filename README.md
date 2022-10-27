@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/brands/sciola_framework.svg?raw=true" /></div>
+<p align="center"><a href="https://sciola-git.github.io" target="_blank"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/brands/sciola_framework.svg?raw=true" width="400"></a></p>
 
 ### PHP framework (Project under development)
 
