@@ -335,7 +335,7 @@ class MyModel extends Model
 
 </p>
 
-In this directory are the packages managed by Composer and NPM.
+In this directory are the packages managed by [composer](https://getcomposer.org) and [npm](https://www.npmjs.com).
 
 ##
 
