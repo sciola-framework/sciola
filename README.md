@@ -192,6 +192,27 @@ File: **pt-BR/website-routes.json**
 
 ##
 
+### USE
+
+**PHP**
+```php
+<?php
+  translate('Term in english...');
+?>
+```
+
+**Twig**
+```twig
+{{ translate('Term in english...') }}
+```
+
+**JS**
+```javascript
+<script>
+  translate('Term in english...');
+</script>
+```
+
 <p>
 
 ### <a href="#-layers"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /></a> layers
