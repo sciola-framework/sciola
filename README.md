@@ -27,6 +27,8 @@
 > <a href="#-database"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /></a> [database](#-database)
 >
 > <a href="#-languages"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /></a> [languages](#-languages)
+> 
+> <a href="#-layers"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /></a> [layers](#-layers)
 
 <br>
 
@@ -143,6 +145,18 @@ File: **pt-BR/system-routes.json**
 File: **pt-BR/website.json**
 
 File: **pt-BR/website-routes.json**
+
+##
+
+<p>
+
+### <a href="#-layers"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /></a> layers
+
+</p>
+
+In this directory are the application's configuration files.
+
+##
 
 <br>
 
