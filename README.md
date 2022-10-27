@@ -1,6 +1,6 @@
 <p align="center"><a href="https://sciola-git.github.io"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/brands/sciola_framework.svg?raw=true" width="400"></a></p>
 
-### PHP framework (Project under development)
+## <p align="center">PHP framework (Project under development)</p>
 
 <br>
 
