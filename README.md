@@ -124,8 +124,6 @@ In this directory are the database development files used by the ORM (Object-Rel
 
 ##
 
-text...
-
 ##
 
 <p>
