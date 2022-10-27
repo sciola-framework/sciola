@@ -72,6 +72,26 @@
 
 <br>
 
+### :file_folder: Front-end - (CSS)
+
+<br>
+
+> <p>&lt;p class="font-light"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-light-italic"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-regular"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-italic"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-semibold"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-semibold-italic"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-bold"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-bold-italic"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-extrabold"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-extrabold-italic"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-condensed-light"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-condensed-light-italic"&gt;&lt;/p&gt;</p>
+> <p>&lt;p class="font-condensed-bold"&gt;&lt;/p&gt;</p>
+
+<br>
+
 ##
 
 <p>
