@@ -10,9 +10,7 @@
 - PHP 7++ | https://www.php.net
 - DBMS - (Data Base Management System) | https://en.wikipedia.org/wiki/Database
 
----
-
-## <div align="center">Reference</div>
+## <p align="center">Reference</p>
 
 > <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> [config](#-config)
 >
