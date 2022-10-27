@@ -192,7 +192,7 @@ File: **pt-BR/website-routes.json**
 
 ##
 
-### USE
+**Call the function to translate into:**
 
 **PHP**
 ```php
