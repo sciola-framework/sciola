@@ -375,6 +375,20 @@ In this directory are the route files - Friendly urls.
 
 ##
 
+File: **foo.php**
+
+```php
+<?php
+
+Route::add('/', function () {
+    controller('YourController')->method();
+});
+
+Route::add('/' . translate('my-route'), function () {
+    controller('YourController')->method('args');
+});
+```
+
 <br>
 
 ## Author
