@@ -365,6 +365,16 @@ File: **package.json**
 }
 ```
 
+```text
+Access URL:
+
+http://packages/my-package-1/css/all.min.css
+http://packages/my-package-1/js/all.min.js
+
+http://packages/my-package-2/css/all.min.css
+http://packages/my-package-2/js/all.min.js
+```
+
 ##
 
 <p>
