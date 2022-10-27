@@ -349,6 +349,22 @@ debian@debian:~/path/to/packages$ **composer install**
 
 debian@debian:~/path/to/packages$ **npm install**
 
+> **Note** *You can configure public packages, with access via url.*
+
+File: **package.json**
+
+```json
+{
+  "dependencies": {
+
+  },
+  "public": {
+    "my-package-1": "my-package-1/dist",
+    "my-package-2": "my-package-2/dist"
+  }
+}
+```
+
 ##
 
 <p>
