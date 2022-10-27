@@ -20,6 +20,18 @@
 
 ### :arrow_right: Install
 
+- [Download the framework here and unzip it in your development directory.](https://github.com/sciola-git/Sciola/archive/refs/heads/main.zip)
+
+- Go to the packages directory and run the commands to do the installation:
+
+**LINUX**
+
+debian@debian:~$ **cd /path/to/packages**
+
+debian@debian:~/path/to/packages$ **composer install**
+
+debian@debian:~/path/to/packages$ **npm install**
+
 <br>
 
 ## <p align="center">Reference</p>
