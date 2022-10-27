@@ -363,6 +363,18 @@ In this directory are the public files served by the web servers.
 
 > **Note** This directory can be renamed according to your web server settings.
 
+##
+
+<p>
+
+### <a href="#-routes"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /></a> routes
+
+</p>
+
+In this directory are the route files - Friendly urls.
+
+##
+
 <br>
 
 ## Author
