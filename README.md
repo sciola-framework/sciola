@@ -34,7 +34,9 @@
    >
    > debian@debian:~/var/www/sciola/packages$ **npm install**
 
-3. Access the application through the url that is configured on your web server.
+3. Give write permission to the directory: **/var/www/sciola/writable**
+
+4. Access the application through the url that is configured on your web server.
 
    Example: http://localhost:8080
 
