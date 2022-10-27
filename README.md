@@ -128,9 +128,9 @@ File: **en/routes.json**
 
 ```json
 {
-  "A0001" : "products-and-services",
-  "A0002" : "virtual-store",
-  "A0003" : "contact"
+  "B0001" : "products-and-services",
+  "B0002" : "virtual-store",
+  "B0003" : "contact"
 }
 ```
 
@@ -138,9 +138,9 @@ File: **pt-BR/routes.json**
 
 ```json
 {
-  "A0001" : "produtos-e-servicos",
-  "A0002" : "loja-virtual",
-  "A0003" : "contato"
+  "B0001" : "produtos-e-servicos",
+  "B0002" : "loja-virtual",
+  "B0003" : "contato"
 }
 ```
 
