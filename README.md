@@ -351,6 +351,12 @@ debian@debian:~/path/to/packages$ **npm install**
 
 <br>
 
+## Author
+
+[Leandro Sciola](https://sciola-git.github.io/leandro-sciola)
+
+<br>
+
 ## License
 
 The Sciola framework is open-sourced software licensed under the [MIT license](LICENSE.md).
