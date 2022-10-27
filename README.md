@@ -22,6 +22,8 @@
 
 1. [Download the framework here and unzip it in your development directory.](https://github.com/sciola-git/Sciola/archive/refs/heads/main.zip)
 
+   Example: **/var/www/sciola**
+
 2. Go to the packages directory and run the commands to do the installation:
 
    > **LINUX**
@@ -31,6 +33,10 @@
    > debian@debian:~/path/to/packages$ **composer install**
    >
    > debian@debian:~/path/to/packages$ **npm install**
+
+3. Access the application through the url that is configured on your web server.
+
+   Example: http://localhost:8080
 
 <br>
 
