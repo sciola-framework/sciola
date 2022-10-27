@@ -17,13 +17,16 @@
 > <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> [database](#-database)
 >
 > <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> [languages](#-languages)
->
 
----
+##
+
+<p>
 
 ### <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> config
 
----
+</p>
+
+##
 
 In this directory are the application's configuration files.
 
@@ -36,11 +39,15 @@ DEV_MODE = true
 DEV_MODE = false
 ```
 
----
+##
+
+<p>
 
 ### <img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /> database
 
----
+</p>
+
+##
 
 In this directory are the application's configuration files.
 
