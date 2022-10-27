@@ -118,7 +118,7 @@ DEV_MODE = false
 
 </p>
 
-In this directory are the application's configuration files.
+In this directory are the database development files used by the ORM (Object-Relational Mapping).
 
 ##
 
