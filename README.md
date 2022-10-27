@@ -26,9 +26,9 @@
 
 </p>
 
-##
-
 In this directory are the application's configuration files.
+
+##
 
 > **Note** *In production change the **DEV_MODE** option in the file: **constant.ini***
 ```ini
