@@ -10,13 +10,15 @@
 
 <br>
 
-### Requirements:
+### :arrow_right: Requirements
 
 - Apache2 | https://httpd.apache.org
 - Composer | https://getcomposer.org
 - NPM | https://www.npmjs.com
 - PHP 7++ | https://www.php.net
 - DBMS - (Data Base Management System) | https://en.wikipedia.org/wiki/Database
+
+### :arrow_right: Install
 
 <br>
 
