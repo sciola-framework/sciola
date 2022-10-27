@@ -76,7 +76,7 @@
 
 <br>
 
-> <a href="#-writable"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="48px" align="center" /></a> [CSS](#css)
+> <a href="#-writable"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/file.svg?raw=true" width="48px" align="center" /></a> [CSS](#css)
 
 <br>
 
