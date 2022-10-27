@@ -395,6 +395,18 @@ Route::add('/' . translate('my-route'), function () {
 
 <p>
 
+### <a href="#-tests"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /></a> tests
+
+</p>
+
+In this directory are the test files of your application.
+
+##
+
+##
+
+<p>
+
 ### <a href="#-writable"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/folder.svg?raw=true" width="60px" align="center" /></a> writable
 
 </p>
