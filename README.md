@@ -76,6 +76,8 @@
 
 <br>
 
+> <a href="#ajax"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/file.svg?raw=true" width="48px" align="center" /></a> [Ajax](#ajax)
+>
 > <a href="#css"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/file.svg?raw=true" width="48px" align="center" /></a> [CSS](#css)
 >
 > <a href="#js"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/file.svg?raw=true" width="48px" align="center" /></a> [JS](#js)
