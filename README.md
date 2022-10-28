@@ -590,6 +590,38 @@ https://github.com/delight-im/PHP-Auth/blob/master/README.md#roles-or-groups
 \Delight\Auth\Role::SUPER_EDITOR;
 \Delight\Auth\Role::SUPER_MODERATOR;
 \Delight\Auth\Role::TRANSLATOR;
+
+/*
+  Database field: roles_mask
+  Default value: 0
+  List of values:
+*/
+
+Array
+(
+  [1]       => ADMIN
+  [2]       => AUTHOR
+  [4]       => COLLABORATOR
+  [8]       => CONSULTANT
+  [16]      => CONSUMER
+  [32]      => CONTRIBUTOR
+  [64]      => COORDINATOR
+  [128]     => CREATOR
+  [256]     => DEVELOPER
+  [512]     => DIRECTOR
+  [1024]    => EDITOR
+  [2048]    => EMPLOYEE
+  [4096]    => MAINTAINER
+  [8192]    => MANAGER
+  [16384]   => MODERATOR
+  [32768]   => PUBLISHER
+  [65536]   => REVIEWER
+  [131072]  => SUBSCRIBER
+  [262144]  => SUPER_ADMIN
+  [524288]  => SUPER_EDITOR
+  [1048576] => SUPER_MODERATOR
+  [2097152] => TRANSLATOR
+)
 ```
 
 ##
