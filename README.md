@@ -451,7 +451,7 @@ In this directory are the public files served by the web servers.
 
 </p>
 
-In this directory are the route files - Friendly urls.
+In this directory are the route files - Routes are responsible for calling controllers.
 
 ##
 
