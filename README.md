@@ -455,19 +455,35 @@ In this directory are the route files - Routes are responsible for calling contr
 
 ##
 
+Example:
+
+```php
+<?php
+
+Route::add('/my/route', function () {
+  controller('MyController')->myMethod();
+});
+```
+
+```http://localhost/my/route```
+
 > **Note** *You can create multiple route files as per your application's organizational structure.*
 
-File: **foo.php**
+File: **my_routes.php**
 
 ```php
 <?php
 
 Route::add('/', function () {
-    controller('YourController')->method();
+    controller('MyController')->myMethod();
+});
+
+Route::add('/my-route', function () {
+    controller('MyController')->myMethod('args');
 });
 
 Route::add('/' . translate('my-route'), function () {
-    controller('YourController')->method('args');
+    controller('MyController')->myMethod('args');
 });
 ```
 
