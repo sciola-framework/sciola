@@ -453,9 +453,7 @@ In this directory are the public files served by the web servers.
 
 In this directory are your application's route files.
 
-Route is the path (URL) that leads to a certain destination.
-
-Routes are responsible for calling controllers.
+Route is the path (URL) and are responsible for calling the controllers.
 
 ##
 
