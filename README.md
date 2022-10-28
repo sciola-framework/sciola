@@ -74,6 +74,22 @@
 
 ### :arrow_right: Front-end
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/packages/sciola/css/all.min.css">
+    <script src="/packages/sciola/js/all.min.js"></script>
+    <script type="text/javascript">
+    const sciola = new Sciola();
+    sciola.init();
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
+```
+
 <br>
 
 > <a href="#css"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/file.svg?raw=true" width="48px" align="center" /></a> [CSS](#css)
