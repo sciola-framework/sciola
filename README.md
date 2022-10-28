@@ -563,6 +563,35 @@ Route::add('/foo/(.*)', function ($arg) {
 });
 ```
 
+https://github.com/delight-im/PHP-Auth/blob/master/README.md#roles-or-groups
+
+```php
+<?php
+
+\Delight\Auth\Role::ADMIN;
+\Delight\Auth\Role::AUTHOR;
+\Delight\Auth\Role::COLLABORATOR;
+\Delight\Auth\Role::CONSULTANT;
+\Delight\Auth\Role::CONSUMER;
+\Delight\Auth\Role::CONTRIBUTOR;
+\Delight\Auth\Role::COORDINATOR;
+\Delight\Auth\Role::CREATOR;
+\Delight\Auth\Role::DEVELOPER;
+\Delight\Auth\Role::DIRECTOR;
+\Delight\Auth\Role::EDITOR;
+\Delight\Auth\Role::EMPLOYEE;
+\Delight\Auth\Role::MAINTAINER;
+\Delight\Auth\Role::MANAGER;
+\Delight\Auth\Role::MODERATOR;
+\Delight\Auth\Role::PUBLISHER;
+\Delight\Auth\Role::REVIEWER;
+\Delight\Auth\Role::SUBSCRIBER;
+\Delight\Auth\Role::SUPER_ADMIN;
+\Delight\Auth\Role::SUPER_EDITOR;
+\Delight\Auth\Role::SUPER_MODERATOR;
+\Delight\Auth\Role::TRANSLATOR;
+```
+
 ##
 
 <p>
