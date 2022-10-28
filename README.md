@@ -529,7 +529,7 @@ Route::add('/' . translate('my-route'), function () {
 });
 ```
 
-### Authenticated Route
+### :lock: Authenticated Route
 
 ```php
 <?php
