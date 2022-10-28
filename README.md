@@ -357,7 +357,7 @@ class Foo
 }
 ```
 
-Now just instantiate the class in the controller, model or other library:
+Now just instantiate the class in the controller, model or other library. Example:
 
 ```php
 <?php
