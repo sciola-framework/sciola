@@ -88,6 +88,9 @@
 
 <br>
 
+> <a href="#layout"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/file.svg?raw=true" width="48px" align="center" /></a> [Layout](#layout)
+>
+
 ##
 
 <p>
