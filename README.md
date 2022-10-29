@@ -88,6 +88,10 @@
 
 <br>
 
+> <a href="#filters"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/file.svg?raw=true" width="48px" align="center" /></a> [Filters](#filters)
+>
+> <a href="#functions"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/file.svg?raw=true" width="48px" align="center" /></a> [Functions](#functions)
+>
 > <a href="#layout"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/icons/file.svg?raw=true" width="48px" align="center" /></a> [Layout](#layout)
 >
 
