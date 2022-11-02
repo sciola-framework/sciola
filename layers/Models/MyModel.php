@@ -3,8 +3,6 @@
 namespace Layers\Models;
 
 use Framework\Model;
-use Framework\Connection;
-use \PDO;
 
 class MyModel extends Model
 {
