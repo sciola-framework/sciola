@@ -2,11 +2,11 @@
 
 <p align="center"><a href="https://sciola-git.github.io"><img src="https://github.com/sciola-git/sciola-git.github.io/blob/main/images/brands/sciola_framework.svg?raw=true" width="400"></a></p>
 
+<p align="center">The Lightweight PHP Framework to Accelerate Development.</p>
+
 # <p align="center">:warning: Under development</p>
 
-<br>
-
-## <p align="center">The Lightweight PHP Framework to Accelerate Development.</p>
+## <p align="center">Reference</p>
 
 <br>
 
@@ -39,10 +39,6 @@
 4. Access the application through the url that is configured on your web server.
 
    Example: http://localhost:8080
-
-<br>
-
-## <p align="center">Reference</p>
 
 <br>
 
