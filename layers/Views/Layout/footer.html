@@ -1,30 +1,24 @@
-    </main>
+   </main>
     <footer class="footer">
-    {% if auth.login %}
       <div class="container-fluid bg-dark bg-dot border-top border-2 border-secondary">
         <div class="row text-center mx-auto py-4">
           <div class="col-12">
+          {% if auth.login %}
             <p class="text-white m-0">
               <i class="fa fa-user me-2" aria-hidden="true"></i>{{ translate('User') }}: {{ auth.user }}
             </p>
             <hr class="border-1 border-top">
             {{ block('copyright') }}
-          </div>
-        </div>
-      </div>
-    {% else %}
-      <div class="container-fluid bg-dark bg-dot border-top border-2 border-secondary">
-        <div class="row text-center mx-auto py-4">
-          <div class="col-12">
+          {% else %}
             {% block copyright %}
             <small class="text-white">
               &copy; {{ 'now'|date('Y') ~ ' ' ~ translate(CONSTANT.APP_NAME) }}{{ CONSTANT.VERSION ? ' - v' ~ CONSTANT.VERSION : '.' }}
             </small>
             {% endblock %}
+          {% endif %}
           </div>
         </div>
       </div>
-    {% endif %}
     </footer>
     {% include '@sciola/footer/packages.html' %}
   </body>
