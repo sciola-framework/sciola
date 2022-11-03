@@ -1,4 +1,3 @@
-
     </main>
     <footer class="footer">
     {% if auth.login %}
@@ -8,6 +7,7 @@
             <p class="text-white m-0">
               <i class="fa fa-user me-2" aria-hidden="true"></i>{{ translate('User') }}: {{ auth.user }}
             </p>
+            <hr class="border-1 border-top">
             {{ block('copyright') }}
           </div>
         </div>
@@ -16,11 +16,7 @@
       <div class="container-fluid bg-dark bg-dot border-top border-2 border-secondary">
         <div class="row text-center mx-auto py-4">
           <div class="col-12">
-            <p class="text-white m-0">
-              <i class="fa fa-user me-2" aria-hidden="true"></i>{{ translate('User') }}: {{ auth.user }}
-            </p>
             {% block copyright %}
-            <hr class="bg-white">
             <small class="text-white">
               &copy; {{ 'now'|date('Y') ~ ' ' ~ translate(CONSTANT.APP_NAME) }}{{ CONSTANT.VERSION ? ' - v' ~ CONSTANT.VERSION : '.' }}
             </small>
