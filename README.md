@@ -271,7 +271,7 @@ File: **MyController.php**
 
 namespace Layers\Controllers;
 
-use Framework\Controller;
+use Sciola\Controller;
 
 class MyController extends Controller
 {
@@ -293,7 +293,7 @@ File: **MyModel.php**
 
 namespace Layers\Models;
 
-use Framework\Model;
+use Sciola\Model;
 
 class MyModel extends Model
 {
