@@ -1,8 +1,6 @@
 <br>
 
-<p align="center"><a href="https://sciola-framework.github.io"><img src="https://github.com/sciola-framework/sciola-framework.github.io/blob/main/images/brands/sciola_framework.svg?raw=true" width="400"></a></p>
-
-<p align="center">The Lightweight PHP Framework to Accelerate Development.</p>
+<p align="center"><a href="https://sciola-framework.github.io"><img src="https://github.com/sciola-framework/sciola-framework.github.io/blob/main/images/brands/sciola_framework.animated.svg?raw=true" width="100%"></a></p>
 
 # <p align="center">:warning: Under development</p>
 
