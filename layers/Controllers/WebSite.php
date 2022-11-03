@@ -2,7 +2,7 @@
 
 namespace Layers\Controllers;
 
-use Framework\Controller;
+use Sciola\Controller;
 
 class WebSite extends Controller
 {
