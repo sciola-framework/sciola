@@ -1,1 +1,63 @@
 <!DOCTYPE html>
+<html lang="{{ session('language') }}">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta name="language" content="{{ session('language') }}">
+<meta name="title" content="{{ translate(meta.title) }}">
+<meta name="classification" content="Business">
+<meta name="category" content="{{ translate(meta.category) }}">
+<meta name="topic" content="{{ translate(meta.topic) }}">
+<meta name="abstract" content="{{ translate(meta.abstract) }}">
+<meta name="summary" content="{{ translate(meta.summary) }}">
+<meta name="subject" content="{{ translate(meta.subject) }}">
+<meta name="description" content="{{ translate(meta.description) }}">
+<meta name="keywords" content="{{ translate(meta.keywords) }}">
+<meta name="author" content="{{ translate(CONSTANT.APP_NAME) }}, {{ CONSTANT.EMAIL }}">
+<meta name="designer" content="{{ translate(CONSTANT.APP_NAME) }}">
+<meta name="owner" content="">
+<meta name="copyright" content="{{ translate(CONSTANT.APP_NAME) }}">
+<meta name="url" content="{{ CONSTANT.APP_URL }}">
+<meta name="identifier-URL" content="{{ CONSTANT.APP_URL }}">
+<meta name="email" content="{{ CONSTANT.EMAIL }}">
+<meta name="reply-to" content="{{ CONSTANT.EMAIL }}">
+<meta name="directory" content="submission">
+<meta name="robots" content="index,follow">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="revised" content="{{ meta.revised }}">
+<meta name="revisit-after" content="7 days">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+<link rel="icon" href="/images/favicon/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+<link rel="manifest" href="/images/favicon/manifest.json">
+<title>{{ translate(CONSTANT.APP_NAME) }}{{ meta.title ? ' | ' ~ translate(meta.title) }}</title>
+{% include '@sciola/packages.html' %}
+</head>
+<body class="font-regular">
+<header>
+{{ include('Layout/navbar.html') }}
+</header>
+<main role="main">
+<span id="box"></span>
