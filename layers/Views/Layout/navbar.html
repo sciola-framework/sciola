@@ -1,3 +1,66 @@
 <nav class="navbar navbar-effect navbar-expand-lg navbar-dark bg-dark shadow" aria-label="Menu">
-
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img class="img-fluid light-brand" src="/images/brands/light_brand.png" alt="{{ translate(CONSTANT.APP_NAME) }}" title="{{ translate(CONSTANT.APP_NAME) }}">
+      <img class="img-fluid dark-brand d-none" src="/images/brands/dark_brand.png" alt="{{ translate(CONSTANT.APP_NAME) }}" title="{{ translate(CONSTANT.APP_NAME) }}">
+    </a>
+    <button class="navbar-toggler custom-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav w-100 me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="/" aria-current="page">
+            <i class="fa fa-home me-2" aria-hidden="true"></i>{{ translate('Home') }}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/{{ translate('About') | route }}"><!-- Twig filter: route - 'About' to 'about' -->
+            <i class="fa fa-info-circle me-2" aria-hidden="true"></i>{{ translate('About') }}
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="apps">
+            <i class="fa fa-cog me-2" aria-hidden="true"></i>{{ translate('Options') }}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="apps">
+            <li>
+              <a class="dropdown-item" href="/{{ translate('item-1') }}"><!-- Route translation -->
+                <i class="fa fa-check me-2" aria-hidden="true"></i>{{ translate('Item 1') }}
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="/item-2">
+                <i class="fa fa-check me-2" aria-hidden="true"></i>Item 2
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="/item-3">
+                <i class="fa fa-check me-2" aria-hidden="true"></i>Item 3
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" title="{{ translate('Language') }}" id="language">
+            <i class="fa fa-globe me-2" aria-hidden="true"></i>{{ session('language') }}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="language">
+            {% set language_list = language_list() %}
+            {% for index in language_list %}
+            {% if index != session('language') %}
+            <li>
+              <a class="dropdown-item" href="#" onclick="$_['language'].change('{{ index }}'); return false">
+                {{ index }}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
