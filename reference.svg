@@ -1,8 +1,8 @@
 <svg fill="none" viewBox="0 0 100% 800" width="100%" height="800" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
-		<link rel="stylesheet" href="highlight/styles/default.min.css" />
-        <script src="highlight/highlight.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
 		<script>hljs.highlightAll();</script>
 			<style>
 				@keyframes rotate {
