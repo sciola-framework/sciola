@@ -2,7 +2,7 @@
 
 namespace Layers\Models;
 
-use Framework\Model;
+use Sciola\Model;
 
 class MyModel extends Model
 {
