@@ -459,13 +459,12 @@
               <h2 class="align-left"><a href="https://github.com/sciola-framework/Sciola#arrow_right-requirements">Requirements</a></h2>
 <pre class="align-left">
 <code class="language-php">
-```php
-<?php
+&lt;?php
   translate('Term in english...');
 ?>
-```
 </code>
 </pre>
+<iframe src="https://sciola-framework.github.io/"></iframe>
 			</div>
 		</div>
 	</foreignObject>
