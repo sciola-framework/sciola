@@ -1,1 +1,16 @@
-
+{% include header with {
+    meta: {
+      title: 'Welcome!'
+    }
+  }
+%}
+<div class="container-fluid bg-white bg-dot vh-100">
+  <div class="row">
+    <div class="col text-center">
+      <h1 class="py-5">{{ translate('Welcome!') }}</h1>
+      <hr>
+      <h3>{{ translate('The Sciola Framework was installed correctly.') }}</h3>
+    </div>
+  </div>
+</div>
+{% include footer %}
