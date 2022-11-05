@@ -10,9 +10,8 @@
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
-        "classmap": ["./sciola/libraries/php/"],
         "psr-4": {
-            "Framework\\": "./sciola/core/",
+            "Sciola\\": "./node_modules/sciola/classes/",
             "Layers\\Controllers\\": "../layers/Controllers/",
             "Layers\\Models\\": "../layers/Models/",
             "Lib\\": "../libraries/"
