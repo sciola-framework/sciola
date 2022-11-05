@@ -475,6 +475,8 @@ Example:
 ```php
 <?php
 
+use Sciola\Route;
+
 Route::add('/my/route', function () {
   controller('MyController')->myMethod();
 });
@@ -483,43 +485,45 @@ Route::add('/my/route', function () {
 ```http://localhost/my/route```
 
 ```php
-  <?php
+<?php
 
-  Route::add('/this-route-is-defined', function () {
-      echo 'You need to patch this route to see this content';
-  }, 'patch');
+use Sciola\Route;
 
-  Route::add('/form', function () {
-      print_r($_GET);
-  }, 'get');
+Route::add('/this-route-is-defined', function () {
+    echo 'You need to patch this route to see this content';
+}, 'patch');
 
-  Route::add('/form', function () {
-      print_r($_POST);
-  }, 'post');
+Route::add('/form', function () {
+    print_r($_GET);
+}, 'get');
 
-  Route::add('/form', function () {
-      print_r($_REQUEST); // $_GET and $_POST
-  });
+Route::add('/form', function () {
+    print_r($_POST);
+}, 'post');
 
-  Route::add('/foo/(.*)', function ($var1) { // Required argument
-      echo $var1;
-  });
+Route::add('/form', function () {
+    print_r($_REQUEST); // $_GET and $_POST
+});
 
-  Route::add('/foo/?(.*)', function ($var1) { // Optional argument
-      echo $var1;
-  });
+Route::add('/foo/(.*)', function ($var1) { // Required argument
+    echo $var1;
+});
 
-  Route::add('/foo/([0-9]*)/bar', function ($var1) {
-      echo $var1;
-  });
+Route::add('/foo/?(.*)', function ($var1) { // Optional argument
+    echo $var1;
+});
 
-  Route::add('/user/(.*)/edit', function ($id) {
-      echo $id;
-  });
+Route::add('/foo/([0-9]*)/bar', function ($var1) {
+    echo $var1;
+});
 
-  Route::add('/(.*)/(.*)/(.*)/(.*)', function ($var1,$var2,$var3,$var4) {
-      echo 'This is the first match: ', $var1.' / '.$var2.' / '.$var3.' / '.$var4;
-  });
+Route::add('/user/(.*)/edit', function ($id) {
+    echo $id;
+});
+
+Route::add('/(.*)/(.*)/(.*)/(.*)', function ($var1,$var2,$var3,$var4) {
+    echo 'This is the first match: ', $var1.' / '.$var2.' / '.$var3.' / '.$var4;
+});
 ```
 
 > **Note** *You can create multiple route files as per your application's organizational structure.*
