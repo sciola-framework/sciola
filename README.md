@@ -478,7 +478,7 @@ Example:
 use Sciola\Route;
 
 Route::add('/my/route', function () {
-  controller('MyController')->myMethod();
+    controller('MyController')->myMethod();
 });
 ```
 
@@ -533,6 +533,8 @@ File: **my_routes.php**
 ```php
 <?php
 
+use Sciola\Route;
+
 Route::add('/', function () {
     controller('MyController')->myMethod();
 });
@@ -551,32 +553,34 @@ Route::add('/' . translate('my-route'), function () {
 ```php
 <?php
 
+use Sciola\Route;
+
 Route::add('/foo', function () {
-  // ADMIN - Allow only the ADMIN group to access this route
-  Auth::group('ADMIN', function ($data) {
-      controller('MyController')->myMethod($data);
-  });
+    // ADMIN - Allow only the ADMIN group to access this route
+    Auth::group('ADMIN', function ($data) {
+        controller('MyController')->myMethod($data);
+    });
 });
 
 Route::add('/foo', function () {
-  // Groups that can access this route
-  Auth::group('AUTHOR, COLLABORATOR, CREATOR, EDITOR', function ($data) {
-      controller('MyController')->myMethod($data);
-  });
+    // Groups that can access this route
+    Auth::group('AUTHOR, COLLABORATOR, CREATOR, EDITOR', function ($data) {
+        controller('MyController')->myMethod($data);
+    });
 });
 
 Route::add('/foo', function () {
-  // ALL - Allow any group to access this route
-  Auth::group('ALL', function ($data) {
-      controller('MyController')->myMethod($data);
-  });
+    // ALL - Allow any group to access this route
+    Auth::group('ALL', function ($data) {
+        controller('MyController')->myMethod($data);
+    });
 });
 
 Route::add('/foo/(.*)', function ($arg) {
-  // ALL - Allow any group to access this route
-  Auth::group('ALL', function ($data) use ($arg) {
-      controller('MyController')->myMethod($data, $arg);
-  });
+    // ALL - Allow any group to access this route
+    Auth::group('ALL', function ($data) use ($arg) {
+        controller('MyController')->myMethod($data, $arg);
+    });
 });
 ```
 
