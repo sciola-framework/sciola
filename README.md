@@ -107,7 +107,7 @@ In this directory are the application's configuration files.
 
 ##
 
-**constant.ini**
+**sciola.ini**
 
 > **Note** *In production change the **DEV_MODE** option to false.*
 
@@ -120,10 +120,6 @@ DEV_MODE = true
 ```ini
 DEV_MODE = false
 ```
-
-**php.ini**
-
-> **Note** *PHP settings with **PHP_INI_ALL** permission.*
 
 ##
 
