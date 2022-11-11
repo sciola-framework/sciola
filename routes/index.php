@@ -1,5 +1,7 @@
 <?php
 
+use Sciola\Route;
+
 Route::add('/', function () {
     controller('WebSite')->page('home');
 });
