@@ -2,7 +2,7 @@
 
 try {
     $dirname  = dirname(__DIR__);
-    $autoload = "$dirname/packages/vendor/autoload.php";
+    $autoload = "$dirname/packages/node_modules/sciola/vendor/autoload.php";
     if (file_exists($autoload)) {
         include_once $autoload;
         return Sciola\Settings::init($dirname);
