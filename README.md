@@ -4,8 +4,6 @@
 
 # <p align="center">:warning: Under development</p>
 
-## <p align="center">Reference</p>
-
 <br>
 
 ### :arrow_right: Requirements
@@ -33,6 +31,10 @@
 3. Give write permission to the directory: **/var/www/sciola/writable**
 
 4. Access the application through the url that is configured on your web server. Example: http://localhost
+
+<br>
+
+## <p align="center">Reference</p>
 
 <br>
 
