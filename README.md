@@ -11,7 +11,6 @@
 ### :arrow_right: Requirements
 
 - Apache2 | https://httpd.apache.org
-- Composer | https://getcomposer.org
 - NPM | https://www.npmjs.com
 - PHP 7++ | https://www.php.net
 - DBMS - (Data Base Management System) | https://en.wikipedia.org/wiki/Database
@@ -24,15 +23,12 @@
 
    Example: **/var/www/sciola**
 
-2. Go to the packages directory and run the commands to do the installation:
+2. Go to the packages directory and run the following command to install:
 
    > **LINUX**
    >
-   > debian@debian:~$ **cd /var/www/sciola/packages**
+   > debian@debian:~$ **node /var/www/sciola/packages/install**
    >
-   > debian@debian:~/var/www/sciola/packages$ **composer install**
-   >
-   > debian@debian:~/var/www/sciola/packages$ **npm install**
 
 3. Give write permission to the directory: **/var/www/sciola/writable**
 
