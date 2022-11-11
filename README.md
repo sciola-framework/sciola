@@ -11,7 +11,7 @@
 ### :arrow_right: Requirements
 
 - Apache2 | https://httpd.apache.org
-- NPM | https://www.npmjs.com
+- Node.js | https://nodejs.org
 - PHP 7++ | https://www.php.net
 - DBMS - (Data Base Management System) | https://en.wikipedia.org/wiki/Database
 
