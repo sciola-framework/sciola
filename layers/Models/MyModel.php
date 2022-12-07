@@ -11,7 +11,7 @@ class MyModel extends Model
 
     public function __construct()
     {
-        //$this->pdo = self::pdo();
-        //$this->orm = self::orm();
+        //$this->pdo = $this->pdo();
+        //$this->orm = $this->orm();
     }
 }
