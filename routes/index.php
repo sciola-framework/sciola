@@ -7,5 +7,5 @@ Route::add('/', function () {
 });
 
 Route::add('/' . translate('about-the-page'), function () {
-    controller('WebSite')->page('home');
+    controller('WebSite')->page('about');
 });
