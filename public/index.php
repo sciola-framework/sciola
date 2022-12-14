@@ -1,5 +1,5 @@
 <?php
 
-if (is_file(__DIR__ . $_SERVER['REQUEST_URI'])) return false;
-include_once dirname(__DIR__) . '/packages/node_modules/sciola/index.php';
-Sciola::init();
+$path = dirname(__DIR__);
+include_once "$path/packages/node_modules/sciola/index.php";
+return Sciola::index($path);
