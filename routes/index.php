@@ -11,5 +11,9 @@ Route::add('/' . translate('about-the-page'), function () {
 });
 
 Route::add('/' . translate('options') . '/(.*)', function ($item) {
-    controller('WebSite')->page("Options/$item");
+        $options = array(1 => 'item-1', 2 => 'item-2', 3 => 'item-3');
+        if (array_search($item, $options)) {
+            controller('WebSite')->page("Options/$item");
+        }
+        Route::error(404);
 });
