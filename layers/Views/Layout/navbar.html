@@ -53,7 +53,7 @@
             {% for index in language_list %}
             {% if index != session('language') %}
             <li>
-              <a class="dropdown-item" href="#" onclick="$_['language'].change('{{ index }}'); return false">
+              <a class="dropdown-item dropdown-language" href="#">
                 {{ index }}
               </a>
             </li>
