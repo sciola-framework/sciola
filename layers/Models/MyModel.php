@@ -1,6 +1,6 @@
 <?php
 
-namespace Layers\Models;
+namespace App\Model;
 
 use Sciola\Model;
 
