@@ -1,6 +1,6 @@
 <?php
 
-namespace Layers\Controllers;
+namespace App\Controller;
 
 use Sciola\Controller;
 
